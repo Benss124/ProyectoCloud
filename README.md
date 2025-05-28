@@ -1,29 +1,47 @@
-📦 Proyecto Final - Arquitectura Cloud para Plataforma POS
-Este repositorio contiene el desarrollo completo del proyecto de integración para el módulo de Soporte y Operaciones de Sistemas. El objetivo es modernizar una aplicación monolítica POS (Punto de Venta) mediante una arquitectura basada en la nube (AWS), que permita escalar, mejorar la resiliencia y optimizar recursos.
+# 💻 Proyecto Final: Modernización de Plataforma POS en la Nube
 
-🧩 Tecnologías utilizadas
-AWS EC2, RDS, S3, IAM, CloudWatch
+Este repositorio contiene el desarrollo del proyecto final del módulo **Soporte y Operaciones de Sistemas**, cuyo objetivo es **modernizar una aplicación POS monolítica** y desplegarla en una **arquitectura en la nube segura, escalable y de bajo costo**, utilizando **AWS y Docker** como principales tecnologías.
 
-Docker y Docker Compose
+---
 
-Nginx (Proxy reverso y seguridad HTTPS)
+## 📌 Descripción General
 
-Base de datos: MySQL/PostgreSQL en RDS
+Una empresa tecnológica necesita escalar su sistema POS, originalmente desplegado en un único servidor físico sin redundancia ni automatización. El proyecto consiste en migrar esta solución a la nube utilizando una arquitectura moderna que mejore:
 
-GitHub para control de versiones
+- Escalabilidad
+- Seguridad
+- Alta disponibilidad
+- Bajo costo operativo
 
-Scrum para gestión del proyecto (bitácora en Trello)
+---
 
-🗂️ Contenidos del repositorio
-/frontend → Aplicación cliente POS
+## ⚙️ Tecnologías Utilizadas
 
-/backend → API y lógica de negocio
+| Categoría              | Herramienta/Servicio        |
+|------------------------|-----------------------------|
+| Cloud                  | AWS (EC2, RDS, S3, IAM, VPC, CloudWatch) |
+| Contenerización        | Docker, Docker Compose      |
+| Servidor web/proxy     | Nginx + Let's Encrypt       |
+| Base de datos          | Amazon RDS (MySQL/PostgreSQL) |
+| Control de versiones   | Git + GitHub Classroom      |
+| Gestión de proyecto    | Scrum (Trello)              |
 
-/infra → Archivos de despliegue, configuración de Nginx y Docker
+---
 
-/docs → Diagrama de arquitectura, presentación, bitácora Scrum
+## 🗂️ Estructura del Repositorio
 
-README.md → Descripción general y pasos de despliegue
+📁 frontend/ # Código fuente del cliente POS
+📁 backend/ # Código fuente del servidor y API
+📁 infra/ # Archivos de infraestructura (Docker, Nginx)
+📁 docs/ # Diagramas, bitácora, presentación final
+README.md # Descripción del proyecto y guía de uso
 
-🌐 Despliegue
-La versión final está disponible en la nube con un dominio funcional. Ver documentación para acceso.
+📈 Documentación y Entregables
+
+✅ Diagrama de arquitectura en /docs/arquitectura.png
+
+✅ Bitácora Scrum exportada de Trello
+
+✅ Presentación final (PDF o Google Slides)
+
+✅ Evaluación técnica y justificación de decisiones
